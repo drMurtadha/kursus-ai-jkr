@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modul 2: Seni Membina Prompt | Kursus AI JKR</title>
+<meta name="description" content="Modul 2: formula prompt Siapa + Apa + Cara dan Peranan + Konteks + Tugasan + Output, teknik prompt, dan aktiviti sebelum-selepas.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="m2">
+
+<div class="wrap mod-head">
+  <p class="eyebrow">Modul 2 &middot; 9.30-10.30 pagi &middot; 60 minit</p>
+  <h1>Seni Membina <span class="accent">Prompt</span></h1>
+  <p class="lead">Selepas modul ini, anda boleh menulis prompt lima unsur untuk teks dan imej, dan memperbaiki output melalui prompt susulan.</p>
+</div>
+
+<div class="wrap">
+
+  <div class="topic">
+    <div class="when"><b>2.1</b>9.30 &middot; Demo</div>
+    <div>
+      <h3>"Buatkan surat."</h3>
+      <p>Apa yang AI tidak tahu? Kepada siapa, tentang apa, nada, format, panjang. Prompt yang kabur menghasilkan output yang umum.</p>
+    </div>
+  </div>
+
+  <div class="topic" id="formula">
+    <div class="when"><b>2.2</b>9.35 &middot; Ceramah</div>
+    <div>
+      <h3>Formula dalam dua tahap</h3>
+      <div class="grid g3" style="margin:16px 0 24px">
+        <div class="card"><span class="num">SIAPA</span><h3>Peranan</h3><p>AI berlakon sebagai siapa?</p></div>
+        <div class="card"><span class="num">APA</span><h3>Konteks + Tugasan</h3><p>Latar belakang apa, dan apa yang perlu dihasilkan?</p></div>
+        <div class="card"><span class="num">CARA</span><h3>Output + Kekangan</h3><p>Dalam bentuk apa, dan apa yang tidak boleh?</p></div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Asas</th><th>Unsur</th><th>Soalan</th><th>Contoh JKR</th></tr></thead>
+          <tbody>
+            <tr><td>Siapa</td><td><b>Peranan</b></td><td>AI berlakon sebagai siapa?</td><td>Anda pembantu tadbir JKR Daerah</td></tr>
+            <tr><td>Apa</td><td><b>Konteks</b></td><td>Apa yang AI perlu tahu?</td><td>Kerja menurap semula Jalan Kg. Contoh, 14-16 Okt, 8 pagi hingga 5 petang</td></tr>
+            <tr><td>Apa</td><td><b>Tugasan</b></td><td>Apa yang perlu dihasilkan?</td><td>Tulis surat makluman kepada Ketua Kampung</td></tr>
+            <tr><td>Cara</td><td><b>Output</b></td><td>Dalam bentuk apa?</td><td>Format surat rasmi, maksimum 1 halaman</td></tr>
+            <tr><td>Cara</td><td><b>Kekangan</b> (pilihan)</td><td>Apa yang tidak boleh?</td><td>Jangan reka nombor rujukan; tinggalkan [ ] untuk diisi</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout"><b>Struktur ringkas:</b> Anda [peranan]. [Konteks]. Tugasan anda: [tugasan]. Hasilkan dalam bentuk [output]. Pastikan [kekangan].</div>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>CS5</b>9.50 &middot; Cuba Sekarang</div>
+    <div>
+      <h3>Sebelum dan selepas</h3>
+      <p>Jalankan prompt lemah dahulu: <code>Balas aduan jalan berlubang.</code> Kemudian jalankan prompt lima unsur di bawah dalam perbualan baharu. Bandingkan kedua-dua output.</p>
+      <div class="prompt" id="cs5" data-cat="m2 teks">
+        <div class="prompt-head"><h3><span class="tag cs">CS5</span>Balasan aduan awam (lima unsur)</h3></div>
+<pre>Peranan: Anda pegawai perhubungan awam JKR Daerah.
+Konteks: Seorang penduduk mengadu melalui media sosial tentang 6 lubang di Jalan Kg. Contoh selepas hujan. Kon telah dipasang dan pembaikan dijadual 14-16 Okt.
+Tugasan: Tulis balasan rasmi kepada pengadu.
+Output: 3 perenggan pendek, nada sopan dan empati.
+Kekangan: Jangan berjanji tarikh selain yang diberi; jangan sebut nama pegawai.</pre>
+        <p class="follow">Versi pembantu tadbir: tukar Tugasan kepada <code>e-mel jemputan Mesyuarat Penyelarasan Bil. 3/2026 kepada 6 pegawai</code>. Versi pembantu kemahiran: tukar Tugasan kepada <code>laporan kerja harian daripada nota saya: [tampal nota]</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>2.4</b>10.00 &middot; Ceramah</div>
+    <div>
+      <h3>Empat teknik untuk kerja pejabat</h3>
+      <ol class="steps">
+        <li><b>Beri contoh</b>Tampal satu surat lama yang baik sebagai gaya rujukan, selepas membuang maklumat peribadi.</li>
+        <li><b>Minta AI bertanya dahulu</b>"Sebelum menulis, tanya saya 5 soalan."</li>
+        <li><b>Prompt berantai</b>Pecahkan kerja besar: nota, rangka, draf, semakan.</li>
+        <li><b>Perhalusi</b>"Pendekkan", "Lebih formal", "Jadikan jadual", "Terjemah ke Bahasa Inggeris".</li>
+      </ol>
+      <div class="callout red"><b>Kesilapan biasa:</b> prompt terlalu umum; memasukkan data Merah; menerima output tanpa semak; satu perbualan panjang untuk banyak tugas yang tidak berkaitan.</div>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>CS6</b>10.10 &middot; Cuba Sekarang</div>
+    <div>
+      <h3>Formula yang sama untuk imej</h3>
+      <p>Formula prompt berfungsi untuk semua jenis media. Jana infografik, kemudian perhalusi dalam tiga pusingan. AI imej masih kerap tersilap ejaan teks Melayu, jadi semak setiap perkataan.</p>
+      <div class="prompt" id="cs6" data-cat="m2 imej">
+        <div class="prompt-head"><h3><span class="tag kreatif">CS6</span>Infografik zon kerja jalan raya (imej)</h3></div>
+<pre>Peranan: Anda pereka grafik untuk kempen keselamatan JKR.
+Tugasan: Jana infografik menegak "5 Langkah Selamat di Zon Kerja Jalan Raya".
+Konteks: Untuk ditampal di papan notis pejabat dan dikongsi kepada pekerja tapak.
+Output: 5 ikon bernombor dengan ayat pendek Bahasa Melayu, gaya rata, warna jingga dan kelabu.
+Kekangan: Teks besar dan mudah dibaca; tiada logo.</pre>
+        <p class="follow">Pusingan 2: <code>Susun 5 langkah dalam bentuk anak panah dari atas ke bawah.</code> Pusingan 3: <code>Betulkan ejaan pada langkah [n] kepada "[teks betul]".</code></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="btns" style="padding:20px 0 40px"><a class="btn" href="modul-1.html">&larr; Modul 1</a><a class="btn primary" href="modul-3.html">Modul 3: Komunikasi dan Dokumentasi &rarr;</a></div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

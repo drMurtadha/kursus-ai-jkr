@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modul 1: Asas AI | Kursus AI JKR</title>
+<meta name="description" content="Modul 1: Pengenalan AI dan Generative AI, peta alat, keselamatan data, dan aktiviti imej serta muzik dengan Gemini.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="m1">
+
+<div class="wrap mod-head">
+  <p class="eyebrow">Modul 1 &middot; 8.30-9.30 pagi &middot; 60 minit</p>
+  <h1>Asas <span class="accent">AI</span> dan Generative AI</h1>
+  <p class="lead">Selepas modul ini, anda boleh menerangkan AI generatif dalam ayat sendiri, menjana kandungan pertama dalam Gemini, dan membezakan data yang boleh dan tidak boleh dimasukkan.</p>
+</div>
+
+<div class="wrap">
+
+  <div class="topic">
+    <div class="when"><b>1.1</b>8.30 &middot; Demo</div>
+    <div>
+      <h3>Pembuka: pejabat masa depan dalam satu prompt</h3>
+      <p>Penceramah menjana imej pejabat JKR masa depan secara langsung. Soalan untuk anda: berapa lama kerja ini jika diupah? Kemudian kita lihat apa yang AI tersilap, contohnya tulisan atau logo yang salah. Itulah sebabnya prinsip hari ini ialah <b>AI mencadang, manusia memutuskan</b>.</p>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>CS1</b>8.40 &middot; Cuba Sekarang</div>
+    <div>
+      <h3>Log masuk dan prompt pertama</h3>
+      <p>Buka <a href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com</a>, log masuk dengan akaun jabatan, dan salin prompt di bawah. Jika gagal log masuk, beritahu fasilitator dan guna aplikasi Gemini di telefon.</p>
+      <div class="prompt" id="cs1" data-cat="m1 teks">
+        <div class="prompt-head"><h3><span class="tag cs">CS1</span>Prompt pertama</h3></div>
+<pre>Saya [jawatan] di JKR Daerah. Senaraikan 5 tugas harian saya yang boleh dipercepat dengan AI, dan untuk setiap satu beri satu contoh arahan ringkas. Jawab dalam Bahasa Melayu, dalam bentuk jadual.</pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>1.3</b>8.50 &middot; Ceramah</div>
+    <div>
+      <h3>Apa itu AI?</h3>
+      <div class="callout">"AI ialah pembantu digital yang menghasilkan cadangan berdasarkan arahan kita." Ia tidak sentiasa betul dan tidak menggantikan pertimbangan manusia. <small>(Sumber: <a href="https://drshahizan.github.io/ai-semua/modul.html" target="_blank" rel="noopener">AI untuk Semua</a>)</small></div>
+      <p><b>Analogi:</b> AI generatif seperti pembantu baharu yang sangat rajin dan telah membaca banyak, tetapi tidak pernah ke tapak, tidak kenal kontraktor kita, dan kadang-kadang mereka-reka jawapan dengan yakin.</p>
+      <div class="grid g3" style="margin:20px 0">
+        <div class="card"><span class="num">01</span><h3>Automasi peraturan</h3><p>Ikut syarat tetap. Contoh: e-mel peringatan automatik.</p></div>
+        <div class="card"><span class="num">02</span><h3>Pembelajaran mesin</h3><p>Belajar corak daripada data. Contoh: ramalan kerosakan.</p></div>
+        <div class="card"><span class="num">03</span><h3>AI generatif</h3><p>Menjana kandungan baharu: teks, imej, video, muzik.</p></div>
+      </div>
+      <p><b>Apa yang akan kita jana hari ini:</b> teks (surat, e-mel, laporan, minit), imej (poster, infografik), muzik (jingle), video (klip 8 saat), dan huraian daripada gambar.</p>
+      <h3 style="margin-top:28px">Peta alat AI</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Alat</th><th>Pembuat</th><th>Kegunaan utama</th><th>Hari ini</th></tr></thead>
+          <tbody>
+            <tr><td><b>Gemini</b></td><td>Google</td><td>Sembang, tulisan, imej, video, muzik, analisis gambar, Gems</td><td>Alat utama</td></tr>
+            <tr><td><b>NotebookLM</b></td><td>Google</td><td>Bertanya kepada dokumen sendiri, ringkasan berasaskan sumber</td><td>Disebut</td></tr>
+            <tr><td><b>Google Vids</b></td><td>Google</td><td>Video penerangan daripada skrip</td><td>Demo</td></tr>
+            <tr><td><b>ChatGPT</b></td><td>OpenAI</td><td>Sembang dan tulisan umum</td><td>Perbandingan</td></tr>
+            <tr><td><b>Copilot</b></td><td>Microsoft</td><td>Bantuan dalam Word, Excel, Outlook</td><td>Perbandingan</td></tr>
+            <tr><td><b>Canva AI</b></td><td>Canva</td><td>Reka bentuk poster dan slaid</td><td>Perbandingan</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 style="margin-top:28px">Contoh dalam JKR</h3>
+      <div class="grid g4">
+        <div class="card"><h3>Jurutera</h3><p>Ringkasan laporan perunding, kertas taklimat.</p></div>
+        <div class="card"><h3>Penolong Jurutera</h3><p>Laporan lawatan tapak, surat kepada kontraktor.</p></div>
+        <div class="card"><h3>Pembantu Tadbir</h3><p>Surat rasmi, e-mel, minit mesyuarat, hebahan.</p></div>
+        <div class="card"><h3>Pembantu Kemahiran</h3><p>Laporan kerja harian, senarai semak keselamatan.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>CS2</b>9.05 &middot; Cuba Sekarang</div>
+    <div>
+      <h3>Poster keselamatan tapak</h3>
+      <p>Dalam Gemini, minta ia menjana imej. Kemudian ubah satu perkara dengan prompt susulan. Imej AI boleh diperbetul melalui perbualan.</p>
+      <div class="prompt" id="cs2" data-cat="m1 imej">
+        <div class="prompt-head"><h3><span class="tag kreatif">CS2</span>Poster keselamatan tapak (imej)</h3></div>
+<pre>Jana poster menegak gaya ilustrasi rata: pekerja jalan raya Malaysia memakai topi keselamatan, jaket pemantul cahaya dan kasut keselamatan di tapak penurapan. Tajuk besar: "PAKAI PPE, PULANG SELAMAT". Warna kuning dan biru tua.</pre>
+        <p class="follow">Susulan: <code>Tukar latar kepada waktu malam dengan lampu amaran, kekalkan tajuk.</code></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="topic" id="keselamatan">
+    <div class="when"><b>1.5</b>9.15 &middot; Ceramah + kuiz</div>
+    <div>
+      <h3>Keselamatan data: lampu isyarat</h3>
+      <div class="light">
+        <div class="card g"><h3>Hijau: boleh</h3><p>Maklumat awam, data rekaan, templat kosong, teks yang telah dibuang nama.</p></div>
+        <div class="card y"><h3>Kuning: lindungi dahulu</h3><p>Dokumen dalaman. Buang nama, nombor telefon, alamat dan nombor rujukan sebelum menampal.</p></div>
+        <div class="card r"><h3>Merah: jangan</h3><p>Dokumen terperingkat, nombor IC, akaun bank, kata laluan, maklumat peribadi orang awam.</p></div>
+      </div>
+      <h3 style="margin-top:28px">Had AI yang perlu diingat</h3>
+      <ul>
+        <li><b>Halusinasi:</b> AI boleh mencipta nombor rujukan, nama akta atau angka yang kelihatan meyakinkan. Semak setiap fakta.</li>
+        <li><b>AI ialah pembantu, bukan pegawai pelulus.</b> Tanggungjawab tidak boleh diserahkan kepada AI.</li>
+        <li><b>Kandungan AI untuk orang awam</b> perlu dilabel mengikut amalan jabatan. Imej dan video Google membawa tera air digital yang tidak kelihatan.</li>
+      </ul>
+      <div class="callout red"><b>CS3 Kuiz: Boleh atau tidak?</b> Penceramah akan memaparkan 6 senario. Angkat tangan hijau, kuning atau merah. Contoh: "Muat naik senarai nama penduduk terjejas supaya AI menulis surat kepada setiap seorang."</div>
+    </div>
+  </div>
+
+  <div class="topic">
+    <div class="when"><b>CS4</b>9.25 &middot; Cuba Sekarang</div>
+    <div>
+      <h3>Jingle kumpulan 30 saat</h3>
+      <p>Satu jingle setiap kumpulan, menggunakan menu <b>Buat muzik</b> dalam Gemini. Jingle akan dimainkan selepas makan tengah hari, dan kita undi yang terbaik.</p>
+      <div class="prompt" id="cs4" data-cat="m1 muzik">
+        <div class="prompt-head"><h3><span class="tag kreatif">CS4</span>Jingle kumpulan (muzik)</h3></div>
+<pre>Cipta jingle 30 saat, gaya pop Melayu ceria dengan kompang dan gitar, untuk pasukan penyelenggaraan jalan JKR. Lirik ringkas tentang kerja berpasukan dan jalan selamat untuk rakyat. Nama kumpulan: [nama kumpulan].</pre>
+        <p class="follow">Jika lirik Bahasa Melayu tidak jelas, tambah <code>instrumental sahaja</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="btns" style="padding:20px 0 40px"><a class="btn primary" href="modul-2.html">Modul 2: Seni Membina Prompt &rarr;</a></div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

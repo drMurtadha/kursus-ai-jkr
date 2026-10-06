@@ -7,6 +7,7 @@
     ["modul-2.html", "Modul 2", "m2"],
     ["modul-3.html", "Modul 3", "m3"],
     ["hands-on.html", "Hands-on 1", "h1"],
+    ["slaid.html", "Slaid", "slaid"],
   ];
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -42,6 +43,7 @@
     <div class="wrap pills">
       <a class="pill-hot" href="https://forms.gle/FSYdBjMboPMZMFoG7" target="_blank" rel="noopener">Pra-Ujian &#8599;</a>
       <a href="index.html#tentatif">Tentatif</a>
+      <a href="slaid.html">Slaid</a>
       <a href="modul-1.html">Asas AI</a>
       <a href="modul-2.html#formula">Formula Prompt</a>
       <a href="modul-3.html">Surat, Laporan, Slaid</a>

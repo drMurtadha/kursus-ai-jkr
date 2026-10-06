@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slaid | Kursus AI JKR</title>
+<meta name="description" content="Slaid pembentangan Hari 1 Kursus Aplikasi AI dalam Tugas Rasmi: Modul 1, Modul 2, Modul 3 dan Hands-on 1.">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var d=document.documentElement,p=localStorage.getItem("palette"),t=localStorage.getItem("theme");if(p&&p!=="biru")d.dataset.palette=p;if(t)d.dataset.theme=t}catch(e){}</script>
+<style>
+.deck-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px}
+.deck-tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:9px 16px;font-weight:700;cursor:pointer;font-size:14px}
+.deck-tabs button[aria-selected="true"]{background:var(--btn);border-color:var(--btn);color:#fff}
+.viewer{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#0b0f16;box-shadow:0 18px 50px var(--shadow)}
+.viewer iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.keys{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:14px;margin-top:14px}
+.keys kbd{display:inline-block;min-width:26px;text-align:center;border:1px solid var(--line);border-bottom-width:3px;border-radius:7px;padding:1px 7px;background:var(--card);color:var(--ink);font:700 12px ui-monospace,Menlo,monospace;margin-right:4px}
+.deck-card .meta{font-size:13px;color:var(--muted);font-weight:700;margin:8px 0 14px}
+.deck-card .acts{display:flex;gap:8px;flex-wrap:wrap}
+.deck-card .acts a{font-size:13px;padding:8px 14px}
+</style>
+</head>
+<body data-page="slaid">
+
+<div class="wrap mod-head">
+  <p class="eyebrow">Slaid Hari 1 &middot; 7 Oktober 2026</p>
+  <h1>Slaid <span class="accent">pembentangan</span></h1>
+  <p class="lead">Empat set slaid, satu untuk setiap sesi Hari 1. Setiap slaid aktiviti mempunyai butang Salin prompt dan pemasa.</p>
+</div>
+
+<div class="wrap">
+  <div class="deck-tabs" role="tablist" aria-label="Pilih slaid modul">
+    <button role="tab" data-deck="modul-1" aria-selected="true">Modul 1: Asas AI</button>
+    <button role="tab" data-deck="modul-2" aria-selected="false">Modul 2: Seni Membina Prompt</button>
+    <button role="tab" data-deck="modul-3" aria-selected="false">Modul 3: Komunikasi &amp; Dokumentasi</button>
+    <button role="tab" data-deck="hands-on" aria-selected="false">Hands-on 1: Minit Mesyuarat</button>
+  </div>
+  <div class="viewer"><iframe id="deckframe" src="slaid/modul-1.html" title="Pratonton slaid" allow="fullscreen; clipboard-write" allowfullscreen></iframe></div>
+  <div class="btns" style="margin-top:18px">
+    <a class="btn primary" id="openfull" href="slaid/modul-1.html" target="_blank" rel="noopener">Buka skrin penuh &#8599;</a>
+    <a class="btn" id="openmd" href="slaid/md/modul-1.md" target="_blank" rel="noopener">Kandungan MD</a>
+  </div>
+  <div class="keys">
+    <span><kbd>&rarr;</kbd><kbd>&larr;</kbd>slaid</span><span><kbd>M</kbd>menu modul</span><span><kbd>O</kbd>semua slaid</span>
+    <span><kbd>N</kbd>nota penceramah</span><span><kbd>F</kbd>skrin penuh</span><span>Leret di telefon</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Senarai slaid</p>
+    <h2>Satu dek untuk <span class="accent">setiap sesi.</span></h2>
+    <div class="grid g4" style="margin-top:24px">
+      <div class="card deck-card"><span class="num">01 &middot; 8.30 pagi</span><h3>Asas AI dan Generative AI</h3><p class="meta">23 slaid &middot; 60 minit &middot; CS1 hingga CS4</p>
+        <div class="acts"><a class="btn primary" href="slaid/modul-1.html">Slaid</a><a class="btn" href="modul-1.html">Nota</a><a class="btn" href="slaid/md/modul-1.md">MD</a></div></div>
+      <div class="card deck-card"><span class="num">02 &middot; 9.30 pagi</span><h3>Seni Membina Prompt</h3><p class="meta">15 slaid &middot; 60 minit &middot; CS5, CS6</p>
+        <div class="acts"><a class="btn primary" href="slaid/modul-2.html">Slaid</a><a class="btn" href="modul-2.html">Nota</a><a class="btn" href="slaid/md/modul-2.md">MD</a></div></div>
+      <div class="card deck-card"><span class="num">03 &middot; 11.00 pagi</span><h3>Komunikasi, Dokumentasi dan Mesyuarat</h3><p class="meta">20 slaid &middot; 120 minit &middot; CS7 hingga CS11</p>
+        <div class="acts"><a class="btn primary" href="slaid/modul-3.html">Slaid</a><a class="btn" href="modul-3.html">Nota</a><a class="btn" href="slaid/md/modul-3.md">MD</a></div></div>
+      <div class="card deck-card"><span class="num">H1 &middot; 2.30 petang</span><h3>Hands-on 1: Minit Mesyuarat</h3><p class="meta">15 slaid &middot; 120 minit &middot; 6 langkah + Gem</p>
+        <div class="acts"><a class="btn primary" href="slaid/hands-on.html">Slaid</a><a class="btn" href="hands-on.html">Nota</a><a class="btn" href="slaid/md/hands-on.md">MD</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Cara guna</p>
+    <h2>Tiga cara <span class="accent">menggunakan slaid.</span></h2>
+    <div class="grid g3" style="margin-top:24px">
+      <div class="card"><span class="num">01</span><h3>Semasa kursus</h3><p>Buka skrin penuh dan ikut penceramah. Klik <b>Salin</b> pada slaid Cuba Sekarang untuk menyalin prompt terus ke Gemini.</p></div>
+      <div class="card"><span class="num">02</span><h3>Di telefon</h3><p>Pusingkan telefon ke landskap dan leret ke kiri atau kanan untuk bertukar slaid.</p></div>
+      <div class="card"><span class="num">03</span><h3>Selepas kursus</h3><p>Tekan butang cetak dalam slaid dan pilih <b>Simpan sebagai PDF</b> untuk rujukan luar talian.</p></div>
+    </div>
+    <div class="callout"><b>Hari 2 (8 Okt):</b> slaid Modul 4 dan Modul 5 disediakan oleh PM Ts Dr Mohd Shahizan Othman.</div>
+  </div>
+</section>
+
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  var tabs=document.querySelectorAll(".deck-tabs button"),f=document.getElementById("deckframe"),
+      o=document.getElementById("openfull"),m=document.getElementById("openmd");
+  function pick(k){
+    tabs.forEach(function(t){t.setAttribute("aria-selected",String(t.dataset.deck===k))});
+    f.src="slaid/"+k+".html"; o.href="slaid/"+k+".html"; m.href="slaid/md/"+k+".md";
+    history.replaceState(null,"","#"+k);
+  }
+  tabs.forEach(function(t){t.addEventListener("click",function(){pick(t.dataset.deck)})});
+  var h=location.hash.slice(1); if(["modul-1","modul-2","modul-3","hands-on"].indexOf(h)>=0) pick(h);
+})();
+</script>
+</body>
+</html>

@@ -13,6 +13,9 @@ Penceramah: PM Dr Mohd Murtadha Mohamad. Fasilitator: PM Ts Dr Mohd Shahizan Oth
 | `modul-3.html` | Surat, e-mel, laporan, slaid, video AI |
 | `hands-on.html` | Hands-on 1: minit mesyuarat |
 | `prompt.html` | Bank Prompt (dijana, jangan sunting terus) |
+| `slaid.html` | Menu slaid: pratonton dan pautan setiap dek |
+| `slaid/*.html` | Slaid Modul 1, 2, 3 dan Hands-on 1 (dijana) |
+| `slaid/md/*.md` | Kandungan slaid dalam Markdown, untuk Gemini/ChatGPT |
 
 ## Mengemas kini prompt
 
@@ -21,6 +24,16 @@ Prompt hanya ditulis dalam halaman modul dan `hands-on.html`. Selepas menyunting
 ```
 python3 build.py
 ```
+
+## Mengemas kini slaid
+
+Sunting `slaid/kandungan.py`, kemudian jalankan:
+
+```
+python3 slaid/bina.py
+```
+
+Kekunci dalam slaid: anak panah (tukar slaid), M (menu modul), O (semua slaid), N (nota penceramah), F (skrin penuh). Butang cetak menyimpan dek sebagai PDF, satu slaid satu halaman.
 
 ## Terbit di GitHub Pages
 

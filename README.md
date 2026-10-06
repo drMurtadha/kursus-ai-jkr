@@ -39,4 +39,6 @@ Kekunci dalam slaid: anak panah (tukar slaid), M (menu modul), O (semua slaid), 
 
 Settings, Pages, Deploy from a branch, `main`, folder `/ (root)`.
 
+Panduan penuh untuk menyunting (manusia atau AI): lihat `HANDOVER.md`.
+
 Semua contoh menggunakan data rekaan.

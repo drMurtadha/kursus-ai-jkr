@@ -345,3 +345,12 @@ body.embed .ctrl{right:10px;bottom:10px;transform:scale(.85);transform-origin:bo
 .illustrated .card .iconbig .ic{width:24px;height:24px}
 .illustrated .body{margin-top:20px}
 @media print{.slide-visual img{break-inside:avoid}.illustrated-layout{height:100%}}
+
+/* Paparkan rajah penuh dan infografik menegak tanpa memotong kandungan. */
+.slide-visual.visual-contain img{object-fit:contain;background:var(--paper)}
+.slide-visual.visual-poster img{height:500px;object-fit:contain;background:#fff;border-radius:14px}
+.illustrated .points{gap:18px}
+.illustrated .points li{grid-template-columns:36px 1fr;gap:12px;line-height:1.35}
+.illustrated .points li .dot{width:36px;height:36px;border-radius:10px}
+.illustrated .points li b{font-size:21px}
+.illustrated .points li span.d{font-size:18px}

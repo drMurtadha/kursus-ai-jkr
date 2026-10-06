@@ -376,7 +376,8 @@ def build_deck(d):
         if s.get("image"):
             cls.append("illustrated")
             caption = H.escape(s.get("image_caption", "Ilustrasi dijana AI, situasi rekaan"))
-            figure = f'<figure class="slide-visual"><img src="{H.escape(s["image"])}" alt="{H.escape(s["image_alt"])}"><figcaption>{caption}</figcaption></figure>'
+            fit_class = {"contain": " visual-contain", "poster": " visual-poster"}.get(s.get("image_fit"), "")
+            figure = f'<figure class="slide-visual{fit_class}"><img src="{H.escape(s["image"])}" alt="{H.escape(s["image_alt"])}"><figcaption>{caption}</figcaption></figure>'
             body = f'<div class="illustrated-layout"><div class="illustrated-copy">{body}</div>{figure}</div>'
         notes = f'<aside class="notes"><p>{s["notes"]}</p></aside>' if s.get("notes") else ""
         chrome = f'<div class="chrome"><span class="mod"><i></i>{d["label"]}</span><span class="pg">{i+1:02d} / {n:02d}</span></div>'

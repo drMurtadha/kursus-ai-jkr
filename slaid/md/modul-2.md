@@ -25,6 +25,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Subtajuk: Daripada arahan kabur kepada arahan yang menghasilkan draf boleh guna.
 - Maklumat: 9.30-10.30 pagi | 60 minit | PM Dr Mohd Murtadha Mohamad
 
+**Imej:** `slaid/img/m2-01-seni-membina-prompt.jpg`. Pegawai menyusun kad arahan untuk menghasilkan draf dengan bantuan AI.
+
 **Cadangan visual:** Latar gelap warna utama, nombor modul gergasi bergaris di kanan bawah, jalur emas kecil, tajuk besar putih dengan satu perkataan italik emas.
 
 ---
@@ -67,6 +69,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Tajuk: “Buatkan *surat*.”
 - Subtajuk: Taip dua perkataan ini dalam Gemini. Apa yang anda dapat?
 
+**Imej:** `slaid/img/m2-04-arahan-kabur.jpg`. Arahan kabur menyebabkan pembantu AI meneka antara surat, e-mel dan laporan.
+
 **Cadangan visual:** Pernyataan besar pada latar kertas cerah, satu perkataan berwarna aksen.
 
 **Nota penceramah:** Jalankan prompt ini secara langsung. Hasilnya surat umum yang tidak boleh digunakan.
@@ -100,6 +104,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
   - **Peranan** (Siapa): AI berlakon sebagai siapa?
   - **Konteks + Tugasan** (Apa): Latar belakang apa, dan apa yang perlu dihasilkan?
   - **Output + Kekangan** (Cara): Dalam bentuk apa, dan apa yang tidak boleh?
+
+**Imej:** `slaid/img/m2-06-siapa-apa-cara.jpg`. Tiga kumpulan objek mewakili peranan, konteks dan tugasan, serta output dan kekangan.
 
 **Cadangan visual:** Grid kad putih bersudut bulat, ikon kecil dan label aksen di atas tajuk kad.
 
@@ -219,6 +225,8 @@ Kekangan: Jangan berjanji tarikh selain yang diberi; jangan sebut nama pegawai.
   - **Prompt berantai** (03): Pecahkan kerja besar: nota, rangka, draf, semakan.
   - **Perhalusi** (04): "Pendekkan", "Lebih formal", "Jadikan jadual", "Terjemah ke Bahasa Inggeris".
 
+**Imej:** `slaid/img/m2-11-prompt-berantai.jpg`. Aliran prompt berantai: nota, rangka, draf dan semakan.
+
 **Cadangan visual:** Grid kad putih bersudut bulat, ikon kecil dan label aksen di atas tajuk kad.
 
 **Nota penceramah:** Teknik 3, prompt berantai, akan digunakan sepenuhnya dalam Hands-on 1 petang ini.
@@ -235,6 +243,8 @@ Kekangan: Jangan berjanji tarikh selain yang diberi; jangan sebut nama pegawai.
   2. **Memasukkan data Merah**: IC, akaun bank, dokumen terperingkat.
   3. **Menerima output tanpa semak**: Fakta, angka dan nama mesti disahkan.
   4. **Satu perbualan untuk banyak tugas**: Mulakan perbualan baharu bagi tugas yang tidak berkaitan.
+
+**Imej:** `slaid/img/m2-12-semakan-manusia.jpg`. Pegawai membandingkan draf AI dengan dokumen sumber sebelum menggunakannya.
 
 **Cadangan visual:** Senarai bernombor dengan kotak nombor gelap di kiri setiap poin.
 
@@ -266,7 +276,25 @@ Kekangan: Teks besar dan mudah dibaca; tiada logo.
 
 ---
 
-## Slaid 14: Sebelum guna, *semak* lima perkara
+## Slaid 14: CS6: Contoh hasil dan semakan
+
+**Susun atur:** points
+
+- Label: CS6 · Semak hasil imej
+- Tajuk: Menarik, tetapi *semak* dahulu
+  1. **Semak teks dan susunan**: Lima langkah hadir. Baca setiap ayat dan semak ejaannya.
+  2. **Cari butiran yang tidak diminta**: Papan tanda memaparkan angka 140. Angka itu tidak diberi dalam prompt; minta AI membuangnya.
+  3. **Sahkan sebelum digunakan**: Semak ikon dan kesesuaian dengan arahan jabatan sebelum mengedar.
+
+**Imej:** `slaid/img/m2-13-contoh-infografik-zon-kerja.jpg`. Infografik AI lima langkah keselamatan zon kerja; contoh kesilapan: papan tanda mengandungi angka 140 yang tidak diminta.
+
+**Cadangan visual:** Senarai bernombor dengan kotak nombor gelap di kiri setiap poin.
+
+**Nota penceramah:** Tunjuk angka 140 pada langkah 3. Jangan tafsir sebagai had laju yang sah. Minta peserta mencadangkan prompt susulan untuk membuang angka itu, kemudian semak semula hasil. Contoh ini untuk latihan semakan output sahaja.
+
+---
+
+## Slaid 15: Sebelum guna, *semak* lima perkara
 
 **Susun atur:** flow
 
@@ -284,7 +312,7 @@ Kekangan: Teks besar dan mudah dibaca; tiada logo.
 
 ---
 
-## Slaid 15: Prompt yang baik ialah *arahan kerja* yang baik
+## Slaid 16: Prompt yang baik ialah *arahan kerja* yang baik
 
 **Susun atur:** close
 

@@ -73,6 +73,8 @@ Susunan dalam senarai = susunan slaid. Senarai `DECKS` di hujung fail menentukan
 - `menu` tajuk pendek dalam menu slaid (jika tiada, `h` digunakan)
 - `visual` cadangan visual khusus untuk fail MD (pilihan)
 - `image` laluan imej pilihan, contoh `img/pejabat-ai.jpg`; `image_alt` penerangan imej wajib; `image_caption` kapsyen pilihan (lalai: ilustrasi dijana AI, situasi rekaan). Imej dipaparkan bersebelahan kandungan.
+- `image_fit`: `contain` untuk rajah penuh, `poster` untuk infografik menegak; lalai ialah potongan mengisi bingkai.
+- Modul 2 mempunyai 16 slaid dan menggunakan enam imej pengguna dengan nama `m2-*.jpg`. Slaid contoh selepas CS6 menandakan angka 140 yang ditambah AI sebagai butiran untuk dibuang, bukan arahan keselamatan rasmi. Prompt imej ada dalam `slaid/img/PROMPT_IMEJ_MODUL_2.md`.
 - Modul 1 menggunakan empat ilustrasi baharu: pejabat AI, semakan manusia, tapak jalan dan perlindungan data. Prompt penjanaan direkodkan dalam `slaid/img/IMEJ_MODUL_1.md`.
 
 **Jenis slaid dan medan khusus:**

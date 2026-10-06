@@ -15,13 +15,13 @@
     "semantic_hash": ""
   },
   "slaid/bina.py": {
-    "mtime": 1791297809.4872415,
-    "ast_hash": "31fd323564912eb8fd6d8f60274fdf66",
+    "mtime": 1791299459.1897273,
+    "ast_hash": "3b536c59fed24727d4feb9f59e801d45",
     "semantic_hash": ""
   },
   "slaid/kandungan.py": {
-    "mtime": 1791298197.8766196,
-    "ast_hash": "8ed54c6c8e1dd32bcd798074ab8cfa2d",
+    "mtime": 1791299459.1883996,
+    "ast_hash": "7b748de5017676dbd3fe4c7f2142b69c",
     "semantic_hash": ""
   },
   "AGENTS.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "HANDOVER.md": {
-    "mtime": 1791298197.877005,
-    "ast_hash": "cd140b91cb5b4345dbf7b80051ce4e72",
+    "mtime": 1791299459.1936939,
+    "ast_hash": "fd56d4c398d94dec471368cb3376408a",
     "semantic_hash": ""
   },
   "README.md": {
@@ -85,47 +85,47 @@
     "semantic_hash": ""
   },
   "slaid.html": {
-    "mtime": 1791296324.4894524,
-    "ast_hash": "1d8424393b971ad791271f70f8f815fb",
+    "mtime": 1791299459.1927779,
+    "ast_hash": "b4dfd5e4ffc9e25cd943556762242118",
     "semantic_hash": ""
   },
   "slaid/hands-on.html": {
-    "mtime": 1791298197.9174266,
+    "mtime": 1791299459.2312434,
     "ast_hash": "e378639df46f4ef1a515e405e0843dd3",
     "semantic_hash": ""
   },
   "slaid/md/hands-on.md": {
-    "mtime": 1791298197.9176977,
+    "mtime": 1791299459.2314892,
     "ast_hash": "ddf38f4bd2b227db067e78099057eda2",
     "semantic_hash": ""
   },
   "slaid/md/modul-1.md": {
-    "mtime": 1791298197.9145029,
+    "mtime": 1791299459.2282448,
     "ast_hash": "b3a04474f6bbbc1bd538d1310d07343e",
     "semantic_hash": ""
   },
   "slaid/md/modul-2.md": {
-    "mtime": 1791298197.9156592,
-    "ast_hash": "3a808193ecddb9bd87dcf5299ee2b0e0",
+    "mtime": 1791299459.2293491,
+    "ast_hash": "29ae66e2bf192efd2a3c21e1dfe30f1d",
     "semantic_hash": ""
   },
   "slaid/md/modul-3.md": {
-    "mtime": 1791298197.9167867,
+    "mtime": 1791299459.2305708,
     "ast_hash": "2ad4e1e3a800c137dc163faac4fb3cb8",
     "semantic_hash": ""
   },
   "slaid/modul-1.html": {
-    "mtime": 1791298197.9141657,
+    "mtime": 1791299459.2281094,
     "ast_hash": "81eecfcd91f015ad5462f4e4af01608f",
     "semantic_hash": ""
   },
   "slaid/modul-2.html": {
-    "mtime": 1791298197.9153893,
-    "ast_hash": "704298b607a1015447da07d34c77f346",
+    "mtime": 1791299459.2290003,
+    "ast_hash": "cbc6de8f8f23eada9c9e77055a24e4e1",
     "semantic_hash": ""
   },
   "slaid/modul-3.html": {
-    "mtime": 1791298197.9164653,
+    "mtime": 1791299459.230199,
     "ast_hash": "2f9e006352ba1af024613a108955c6b3",
     "semantic_hash": ""
   },
@@ -167,6 +167,71 @@
   "slaid/img/tapak-selamat.jpg": {
     "mtime": 1791298044.575837,
     "ast_hash": "b12ff0d981a546572ea0ca60ef064d80",
+    "semantic_hash": ""
+  },
+  "slaid/img/PROMPT_IMEJ_MODUL_2.md": {
+    "mtime": 1791299459.1950316,
+    "ast_hash": "fdd4e5655b4f2918f63d0a43358ee569",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_100xo4100xo4100x.jpeg": {
+    "mtime": 1791299121.7045348,
+    "ast_hash": "0686ff4233b94eff4d9bc2cec0fca43b",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_8spirg8spirg8spi.jpeg": {
+    "mtime": 1791299224.3179133,
+    "ast_hash": "6d332afcb9558a19fb26d6dc15fb30f0",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_f71x3xf71x3xf71x.jpeg": {
+    "mtime": 1791299196.9017792,
+    "ast_hash": "fdfe73ba0ad459d03431c602b0ff8359",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_jsg9cxjsg9cxjsg9.jpeg": {
+    "mtime": 1791299160.1211686,
+    "ast_hash": "b1a60102716176e20912b5043922f66d",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_nzy1i2nzy1i2nzy1.jpeg": {
+    "mtime": 1791299095.0491428,
+    "ast_hash": "cb5eea30b0e16697dd14f15eac1a8397",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_to75nvto75nvto75.jpeg": {
+    "mtime": 1791299032.4115493,
+    "ast_hash": "bc154abbdc11ec1237927f4184c0a873",
+    "semantic_hash": ""
+  },
+  "slaid/img/m2-01-seni-membina-prompt.jpg": {
+    "mtime": 1791299032.4115493,
+    "ast_hash": "bc154abbdc11ec1237927f4184c0a873",
+    "semantic_hash": ""
+  },
+  "slaid/img/m2-04-arahan-kabur.jpg": {
+    "mtime": 1791299095.0491428,
+    "ast_hash": "cb5eea30b0e16697dd14f15eac1a8397",
+    "semantic_hash": ""
+  },
+  "slaid/img/m2-06-siapa-apa-cara.jpg": {
+    "mtime": 1791299121.7045348,
+    "ast_hash": "0686ff4233b94eff4d9bc2cec0fca43b",
+    "semantic_hash": ""
+  },
+  "slaid/img/m2-11-prompt-berantai.jpg": {
+    "mtime": 1791299160.1211686,
+    "ast_hash": "b1a60102716176e20912b5043922f66d",
+    "semantic_hash": ""
+  },
+  "slaid/img/m2-12-semakan-manusia.jpg": {
+    "mtime": 1791299196.9017792,
+    "ast_hash": "fdfe73ba0ad459d03431c602b0ff8359",
+    "semantic_hash": ""
+  },
+  "slaid/img/m2-13-contoh-infografik-zon-kerja.jpg": {
+    "mtime": 1791299224.3179133,
+    "ast_hash": "6d332afcb9558a19fb26d6dc15fb30f0",
     "semantic_hash": ""
   }
 }

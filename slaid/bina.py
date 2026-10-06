@@ -370,6 +370,7 @@ def build_deck(d):
         if t in DARK: cls.append("dark")
         if t == "section": cls.append("section")
         if t == "title": cls.append("title-slide")
+        if s.get("compact_title"): cls.append("compact-title")
         if t == "act": cls.append("act")
         menu_title = strip(s.get("menu") or s["h"])
         body = RENDER[t](s, d)
@@ -378,6 +379,8 @@ def build_deck(d):
             caption = H.escape(s.get("image_caption", "Ilustrasi dijana AI, situasi rekaan"))
             fit_class = {"contain": " visual-contain", "poster": " visual-poster"}.get(s.get("image_fit"), "")
             figure = f'<figure class="slide-visual{fit_class}"><img src="{H.escape(s["image"])}" alt="{H.escape(s["image_alt"])}"><figcaption>{caption}</figcaption></figure>'
+            if s.get("image_download"):
+                figure = figure.replace("</figure>", f'<a class="visual-download" href="{H.escape(s["image"])}" download>Muat turun gambar simulasi CS9</a></figure>')
             body = f'<div class="illustrated-layout"><div class="illustrated-copy">{body}</div>{figure}</div>'
         notes = f'<aside class="notes"><p>{s["notes"]}</p></aside>' if s.get("notes") else ""
         chrome = f'<div class="chrome"><span class="mod"><i></i>{d["label"]}</span><span class="pg">{i+1:02d} / {n:02d}</span></div>'

@@ -25,6 +25,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Subtajuk: Satu kes tapak, enam hasil.
 - Maklumat: 11.00 pagi-1.00 petang | 120 minit | PM Dr Mohd Murtadha Mohamad
 
+**Imej:** `slaid/img/m3-18-minit-mesyuarat.jpg`. Pegawai membincangkan dan menyemak draf dokumen mesyuarat dengan bantuan AI.
+
 **Cadangan visual:** Latar gelap warna utama, nombor modul gergasi bergaris di kanan bawah, jalur emas kecil, tajuk besar putih dengan satu perkataan italik emas.
 
 ---
@@ -70,6 +72,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Label: 11.00 · 30 minit
 - Tajuk: Surat *rasmi*
 - Subtajuk: Anatomi surat, templat jabatan dan prompt CS7.
+
+**Imej:** `slaid/img/m2-12-semakan-manusia.jpg`. Pegawai menyemak draf surat terhadap dokumen rujukan.
 
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 
@@ -168,7 +172,25 @@ Tulis e-mel susulan kepada kontraktor Syarikat Contoh Sdn Bhd untuk mengesahkan 
 
 ---
 
-## Slaid 9: Laporan daripada *gambar*
+## Slaid 9: CS8: E-mel dan hebahan
+
+**Susun atur:** points
+
+- Label: CS8 · Dua bentuk komunikasi
+- Tajuk: Satu maklumat, *dua* bentuk
+  1. **E-mel kontraktor**: Nada profesional. Nyatakan siapa, apa dan bila pada baris pertama.
+  2. **Hebahan penduduk**: Ringkas, mudah difahami dan sesuai untuk kumpulan WhatsApp.
+  3. **Fakta yang sama**: Semak lokasi, tarikh dan tindakan; jangan tambah janji baharu.
+
+**Imej:** `slaid/img/m3-08-emel-dan-hebahan.jpg`. Maklumat pembaikan jalan disesuaikan menjadi e-mel dan mesej telefon.
+
+**Cadangan visual:** Senarai bernombor dengan kotak nombor gelap di kiri setiap poin.
+
+**Nota penceramah:** Imej ialah ilustrasi. Bandingkan dua output peserta daripada CS8, bukan baris abstrak dalam imej.
+
+---
+
+## Slaid 10: Laporan daripada *gambar*
 
 **Susun atur:** section
 
@@ -176,11 +198,13 @@ Tulis e-mel susulan kepada kontraktor Syarikat Contoh Sdn Bhd untuk mengesahkan 
 - Tajuk: Laporan daripada *gambar*
 - Subtajuk: Gemini boleh membaca gambar. Muat naik gambar sampel kerosakan bersama nota lapangan.
 
+**Imej:** `slaid/img/m3-09-sampel-jalan-rosak.jpg`. Gambar simulasi AI jalan kampung berlubang dengan air bertakung dan bahu jalan terhakis.
+
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 
 ---
 
-## Slaid 10: Struktur laporan
+## Slaid 11: Struktur laporan
 
 **Susun atur:** flow
 
@@ -197,7 +221,7 @@ Tulis e-mel susulan kepada kontraktor Syarikat Contoh Sdn Bhd untuk mengesahkan 
 
 ---
 
-## Slaid 11: CS9: Laporan daripada gambar
+## Slaid 12: CS9: Laporan daripada gambar
 
 **Susun atur:** act
 
@@ -221,7 +245,7 @@ Kekangan: Tandakan [PERLU SAHKAN] pada setiap ukuran atau punca yang anda anggar
 
 ---
 
-## Slaid 12: AI menghurai, pegawai menilai
+## Slaid 13: AI menghurai, pegawai menilai
 
 **Susun atur:** big
 
@@ -229,11 +253,13 @@ Kekangan: Tandakan [PERLU SAHKAN] pada setiap ukuran atau punca yang anda anggar
 - Tajuk: AI *menghurai* apa yang kelihatan. Pegawai menilai.
 - Subtajuk: Penilaian kejuruteraan dan cadangan kerja tetap keputusan pegawai. Laporan teknikal penuh dibina dalam Modul 4 (Hari 2).
 
+**Imej:** `slaid/img/m3-12-pegawai-menilai.jpg`. Jurutera menyemak draf laporan AI dengan gambar dan nota lapangan.
+
 **Cadangan visual:** Pernyataan besar pada latar kertas cerah, satu perkataan berwarna aksen.
 
 ---
 
-## Slaid 13: Laporan kepada *taklimat*
+## Slaid 14: Laporan kepada *taklimat*
 
 **Susun atur:** section
 
@@ -241,11 +267,13 @@ Kekangan: Tandakan [PERLU SAHKAN] pada setiap ukuran atau punca yang anda anggar
 - Tajuk: Laporan kepada *taklimat*
 - Subtajuk: Gunakan laporan daripada 3C dalam perbualan yang sama.
 
+**Imej:** `slaid/img/m3-13-laporan-kepada-taklimat.jpg`. Satu laporan pemeriksaan disusun menjadi lima kad taklimat.
+
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 
 ---
 
-## Slaid 14: CS10: Taklimat 5 slaid
+## Slaid 15: CS10: Taklimat 5 slaid
 
 **Susun atur:** act
 
@@ -267,7 +295,7 @@ Daripada laporan di atas, sediakan taklimat 5 slaid untuk Jurutera Daerah. Setia
 
 ---
 
-## Slaid 15: Video *AI*
+## Slaid 16: Video *AI*
 
 **Susun atur:** section
 
@@ -275,11 +303,13 @@ Daripada laporan di atas, sediakan taklimat 5 slaid untuk Jurutera Daerah. Setia
 - Tajuk: Video *AI*
 - Subtajuk: Klip pendek dengan bunyi, daripada teks atau gambar.
 
+**Imej:** `slaid/img/m3-15-babak-video-kempen.jpg`. Imej pegun simulasi pekerja meletakkan papan tanda Jalan Dibaiki.
+
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 
 ---
 
-## Slaid 16: Formula video
+## Slaid 17: Formula video
 
 **Susun atur:** flow
 
@@ -296,7 +326,7 @@ Daripada laporan di atas, sediakan taklimat 5 slaid untuk Jurutera Daerah. Setia
 
 ---
 
-## Slaid 17: CS11: Video kempen
+## Slaid 18: CS11: Video kempen
 
 **Susun atur:** act
 
@@ -318,7 +348,7 @@ Video 8 saat, gaya dokumentari realistik: pekerja JKR berjaket pemantul cahaya m
 
 ---
 
-## Slaid 18: 3F: Aliran minit mesyuarat
+## Slaid 19: 3F: Aliran minit mesyuarat
 
 **Susun atur:** flow
 
@@ -331,13 +361,15 @@ Video 8 saat, gaya dokumentari realistik: pekerja JKR berjaket pemantul cahaya m
   5. **Sahkan sebelum edar**
 - Nota kaki slaid: Bahan Hands-on 1 diedarkan sebelum rehat. Baca nota mesyuarat simulasi semasa makan tengah hari.
 
+**Imej:** `slaid/img/m3-18-minit-mesyuarat.jpg`. Setiausaha dan pengerusi menyemak draf minit sebelum edaran.
+
 **Cadangan visual:** Aliran kotak dari kiri ke kanan dengan anak panah di antara langkah.
 
 **Nota penceramah:** Kotak gelap ialah langkah yang mesti dibuat oleh manusia.
 
 ---
 
-## Slaid 19: Rumusan: enam hasil
+## Slaid 20: Rumusan: enam hasil
 
 **Susun atur:** cards
 
@@ -354,7 +386,7 @@ Video 8 saat, gaya dokumentari realistik: pekerja JKR berjaket pemantul cahaya m
 
 ---
 
-## Slaid 20: Rehat dan makan *tengah hari*
+## Slaid 21: Rehat dan makan *tengah hari*
 
 **Susun atur:** close
 

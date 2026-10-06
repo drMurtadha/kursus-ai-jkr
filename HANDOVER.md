@@ -75,6 +75,8 @@ Susunan dalam senarai = susunan slaid. Senarai `DECKS` di hujung fail menentukan
 - `image` laluan imej pilihan, contoh `img/pejabat-ai.jpg`; `image_alt` penerangan imej wajib; `image_caption` kapsyen pilihan (lalai: ilustrasi dijana AI, situasi rekaan). Imej dipaparkan bersebelahan kandungan.
 - `image_fit`: `contain` untuk rajah penuh, `poster` untuk infografik menegak; lalai ialah potongan mengisi bingkai.
 - Modul 2 mempunyai 16 slaid dan menggunakan enam imej pengguna dengan nama `m2-*.jpg`. Slaid contoh selepas CS6 menandakan angka 140 yang ditambah AI sebagai butiran untuk dibuang, bukan arahan keselamatan rasmi. Prompt imej ada dalam `slaid/img/PROMPT_IMEJ_MODUL_2.md`.
+- Modul 3 mempunyai 21 slaid. Enam imej pengguna `m3-*.jpg` dipadankan secara visual. Imej mesyuarat digunakan semula pada pembukaan, dan ilustrasi semakan Modul 2 digunakan untuk surat rasmi. Gambar simulasi CS9 boleh dimuat turun dari slaid dan nota modul; tiada ukuran atau punca disahkan melalui imej itu. Prompt dan padanan fail ada dalam `slaid/img/PROMPT_IMEJ_MODUL_3.md`.
+- `compact_title=True` mengecilkan tajuk panjang apabila imej dipaparkan; `image_download=True` menambah pautan muat turun gambar simulasi CS9.
 - Modul 1 menggunakan empat ilustrasi baharu: pejabat AI, semakan manusia, tapak jalan dan perlindungan data. Prompt penjanaan direkodkan dalam `slaid/img/IMEJ_MODUL_1.md`.
 
 **Jenis slaid dan medan khusus:**

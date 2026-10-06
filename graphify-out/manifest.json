@@ -15,13 +15,13 @@
     "semantic_hash": ""
   },
   "slaid/bina.py": {
-    "mtime": 1791299459.1897273,
-    "ast_hash": "3b536c59fed24727d4feb9f59e801d45",
+    "mtime": 1791302227.2164214,
+    "ast_hash": "83b842c9d2c31dca2532e3044530a238",
     "semantic_hash": ""
   },
   "slaid/kandungan.py": {
-    "mtime": 1791299459.1883996,
-    "ast_hash": "7b748de5017676dbd3fe4c7f2142b69c",
+    "mtime": 1791302423.200303,
+    "ast_hash": "6dab567f3620f2d5f0a78f3301d95f2a",
     "semantic_hash": ""
   },
   "AGENTS.md": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "HANDOVER.md": {
-    "mtime": 1791299459.1936939,
-    "ast_hash": "fd56d4c398d94dec471368cb3376408a",
+    "mtime": 1791302227.2201192,
+    "ast_hash": "849ca0a5b578c6b9090be370d03144c4",
     "semantic_hash": ""
   },
   "README.md": {
@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "modul-3.html": {
-    "mtime": 1791295294.5990329,
-    "ast_hash": "31c8fc624e4762ecf42a19ca4ec2b7d1",
+    "mtime": 1791302227.219748,
+    "ast_hash": "68f80853082c8e4038975c72bf8e873e",
     "semantic_hash": ""
   },
   "prompt.html": {
@@ -85,48 +85,48 @@
     "semantic_hash": ""
   },
   "slaid.html": {
-    "mtime": 1791299459.1927779,
-    "ast_hash": "b4dfd5e4ffc9e25cd943556762242118",
+    "mtime": 1791302227.2190914,
+    "ast_hash": "fbed54fbf97bce5765d69efc5c02478f",
     "semantic_hash": ""
   },
   "slaid/hands-on.html": {
-    "mtime": 1791299459.2312434,
+    "mtime": 1791302227.2592762,
     "ast_hash": "e378639df46f4ef1a515e405e0843dd3",
     "semantic_hash": ""
   },
   "slaid/md/hands-on.md": {
-    "mtime": 1791299459.2314892,
+    "mtime": 1791302227.2595892,
     "ast_hash": "ddf38f4bd2b227db067e78099057eda2",
     "semantic_hash": ""
   },
   "slaid/md/modul-1.md": {
-    "mtime": 1791299459.2282448,
+    "mtime": 1791302227.2558808,
     "ast_hash": "b3a04474f6bbbc1bd538d1310d07343e",
     "semantic_hash": ""
   },
   "slaid/md/modul-2.md": {
-    "mtime": 1791299459.2293491,
+    "mtime": 1791302227.2571635,
     "ast_hash": "29ae66e2bf192efd2a3c21e1dfe30f1d",
     "semantic_hash": ""
   },
   "slaid/md/modul-3.md": {
-    "mtime": 1791299459.2305708,
-    "ast_hash": "2ad4e1e3a800c137dc163faac4fb3cb8",
+    "mtime": 1791302227.258535,
+    "ast_hash": "913711fbc9f575c47d667818b1e10859",
     "semantic_hash": ""
   },
   "slaid/modul-1.html": {
-    "mtime": 1791299459.2281094,
+    "mtime": 1791302227.2553308,
     "ast_hash": "81eecfcd91f015ad5462f4e4af01608f",
     "semantic_hash": ""
   },
   "slaid/modul-2.html": {
-    "mtime": 1791299459.2290003,
+    "mtime": 1791302227.2567923,
     "ast_hash": "cbc6de8f8f23eada9c9e77055a24e4e1",
     "semantic_hash": ""
   },
   "slaid/modul-3.html": {
-    "mtime": 1791299459.230199,
-    "ast_hash": "2f9e006352ba1af024613a108955c6b3",
+    "mtime": 1791302227.2583025,
+    "ast_hash": "d710c6359efecc886aebcfa1f8c769a5",
     "semantic_hash": ""
   },
   "slaid/img/foto-a.jpg": {
@@ -232,6 +232,71 @@
   "slaid/img/m2-13-contoh-infografik-zon-kerja.jpg": {
     "mtime": 1791299224.3179133,
     "ast_hash": "6d332afcb9558a19fb26d6dc15fb30f0",
+    "semantic_hash": ""
+  },
+  "slaid/img/PROMPT_IMEJ_MODUL_3.md": {
+    "mtime": 1791302227.2205555,
+    "ast_hash": "c7328a8f47857c865aee588751861c91",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_ (1).jpeg": {
+    "mtime": 1791301466.778643,
+    "ast_hash": "d5c76e214b6b77f0150cffe12ad562b0",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_ (2).jpeg": {
+    "mtime": 1791301482.7998664,
+    "ast_hash": "91893736d15d186ffbef44f465890e54",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_ (3).jpeg": {
+    "mtime": 1791301498.2161386,
+    "ast_hash": "c5efa5e223dd76f1de2890f0a71ac4c0",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_ (4).jpeg": {
+    "mtime": 1791301507.5224426,
+    "ast_hash": "6aefa16e96fb02ac1bf5cfe6349010f9",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_ (5).jpeg": {
+    "mtime": 1791301515.5213125,
+    "ast_hash": "b75e9e3cbb69a9428ffdd30dfa051eb8",
+    "semantic_hash": ""
+  },
+  "slaid/img/Gemini_Generated_Image_ (6).jpeg": {
+    "mtime": 1791301524.2303386,
+    "ast_hash": "7e2d0a5690195f4373065687cc440880",
+    "semantic_hash": ""
+  },
+  "slaid/img/m3-08-emel-dan-hebahan.jpg": {
+    "mtime": 1791301466.778643,
+    "ast_hash": "d5c76e214b6b77f0150cffe12ad562b0",
+    "semantic_hash": ""
+  },
+  "slaid/img/m3-09-sampel-jalan-rosak.jpg": {
+    "mtime": 1791301482.7998664,
+    "ast_hash": "91893736d15d186ffbef44f465890e54",
+    "semantic_hash": ""
+  },
+  "slaid/img/m3-12-pegawai-menilai.jpg": {
+    "mtime": 1791301498.2161386,
+    "ast_hash": "c5efa5e223dd76f1de2890f0a71ac4c0",
+    "semantic_hash": ""
+  },
+  "slaid/img/m3-13-laporan-kepada-taklimat.jpg": {
+    "mtime": 1791301507.5224426,
+    "ast_hash": "6aefa16e96fb02ac1bf5cfe6349010f9",
+    "semantic_hash": ""
+  },
+  "slaid/img/m3-15-babak-video-kempen.jpg": {
+    "mtime": 1791301515.5213125,
+    "ast_hash": "b75e9e3cbb69a9428ffdd30dfa051eb8",
+    "semantic_hash": ""
+  },
+  "slaid/img/m3-18-minit-mesyuarat.jpg": {
+    "mtime": 1791301524.2303386,
+    "ast_hash": "7e2d0a5690195f4373065687cc440880",
     "semantic_hash": ""
   }
 }

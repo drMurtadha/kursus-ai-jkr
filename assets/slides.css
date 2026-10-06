@@ -354,3 +354,13 @@ body.embed .ctrl{right:10px;bottom:10px;transform:scale(.85);transform-origin:bo
 .illustrated .points li .dot{width:36px;height:36px;border-radius:10px}
 .illustrated .points li b{font-size:21px}
 .illustrated .points li span.d{font-size:18px}
+
+.illustrated.compact-title .t-title h1{font-size:48px;line-height:1.06}
+.visual-download{display:inline-block;margin-top:12px;font-size:15px;font-weight:700;color:var(--p-primary)}
+.dark .visual-download{color:var(--p-gold)}
+.illustrated .flow{display:grid;grid-template-columns:1fr;gap:14px;margin-top:0}
+.illustrated .flow .st{margin:0;padding:12px 16px;border-radius:12px;display:flex;align-items:center;gap:12px}
+.illustrated .flow .st h3{font-size:20px;margin-top:0}
+.illustrated .flow .st .n{margin:0;flex:none}
+.illustrated .flow .st::after{width:8px;height:8px;top:auto;right:50%;bottom:-10px;transform:rotate(135deg);border-width:2px}
+@media print{.visual-download{display:none}}

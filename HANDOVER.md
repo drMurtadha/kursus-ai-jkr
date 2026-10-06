@@ -72,6 +72,8 @@ Susunan dalam senarai = susunan slaid. Senarai `DECKS` di hujung fail menentukan
 - `notes` nota penceramah (dipapar dengan kekunci N, tidak kelihatan kepada peserta)
 - `menu` tajuk pendek dalam menu slaid (jika tiada, `h` digunakan)
 - `visual` cadangan visual khusus untuk fail MD (pilihan)
+- `image` laluan imej pilihan, contoh `img/pejabat-ai.jpg`; `image_alt` penerangan imej wajib; `image_caption` kapsyen pilihan (lalai: ilustrasi dijana AI, situasi rekaan). Imej dipaparkan bersebelahan kandungan.
+- Modul 1 menggunakan empat ilustrasi baharu: pejabat AI, semakan manusia, tapak jalan dan perlindungan data. Prompt penjanaan direkodkan dalam `slaid/img/IMEJ_MODUL_1.md`.
 
 **Jenis slaid dan medan khusus:**
 

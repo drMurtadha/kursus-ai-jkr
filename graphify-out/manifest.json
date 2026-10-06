@@ -1,0 +1,172 @@
+{
+  "assets/app.js": {
+    "mtime": 1791295289.9482293,
+    "ast_hash": "6987ab1c99a776459a674bb7f1d71153",
+    "semantic_hash": ""
+  },
+  "assets/slides.js": {
+    "mtime": 1791296319.5856671,
+    "ast_hash": "a9e457eae4c1e6c351ec590840cecb24",
+    "semantic_hash": ""
+  },
+  "build.py": {
+    "mtime": 1791095080.89992,
+    "ast_hash": "518ce285b680a88b6954f9d5088fd925",
+    "semantic_hash": ""
+  },
+  "slaid/bina.py": {
+    "mtime": 1791297809.4872415,
+    "ast_hash": "31fd323564912eb8fd6d8f60274fdf66",
+    "semantic_hash": ""
+  },
+  "slaid/kandungan.py": {
+    "mtime": 1791298197.8766196,
+    "ast_hash": "8ed54c6c8e1dd32bcd798074ab8cfa2d",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1791297335.6727695,
+    "ast_hash": "2cddf2943f1f7133708ba7337ebabea4",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1791297335.67293,
+    "ast_hash": "2cddf2943f1f7133708ba7337ebabea4",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1791297335.6730852,
+    "ast_hash": "2cddf2943f1f7133708ba7337ebabea4",
+    "semantic_hash": ""
+  },
+  "HANDOVER.md": {
+    "mtime": 1791298197.877005,
+    "ast_hash": "cd140b91cb5b4345dbf7b80051ce4e72",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791297335.6757762,
+    "ast_hash": "175e20328bb6b8c171420b3d3d3ebeb7",
+    "semantic_hash": ""
+  },
+  "hands-on.html": {
+    "mtime": 1791295295.2200909,
+    "ast_hash": "7f25c64192397571e5bf9f8d2f069324",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1791295291.1492016,
+    "ast_hash": "602fac1413f185df8c60f41d18a1d581",
+    "semantic_hash": ""
+  },
+  "modul-1.html": {
+    "mtime": 1791295291.782467,
+    "ast_hash": "ebbe7f9b61fe50cd8f38f81ca9c17d95",
+    "semantic_hash": ""
+  },
+  "modul-2.html": {
+    "mtime": 1791295292.375871,
+    "ast_hash": "de6fb57dad1a9921e12b05435bdb69f3",
+    "semantic_hash": ""
+  },
+  "modul-3.html": {
+    "mtime": 1791295294.5990329,
+    "ast_hash": "31c8fc624e4762ecf42a19ca4ec2b7d1",
+    "semantic_hash": ""
+  },
+  "prompt.html": {
+    "mtime": 1791293760.031337,
+    "ast_hash": "71d2db4172ff1f209175b21f0a4ff9f1",
+    "semantic_hash": ""
+  },
+  "prompt.template.html": {
+    "mtime": 1791293759.9944048,
+    "ast_hash": "bec75df8b5a619d71227661f1a3b13e0",
+    "semantic_hash": ""
+  },
+  "slaid.html": {
+    "mtime": 1791296324.4894524,
+    "ast_hash": "1d8424393b971ad791271f70f8f815fb",
+    "semantic_hash": ""
+  },
+  "slaid/hands-on.html": {
+    "mtime": 1791298197.9174266,
+    "ast_hash": "e378639df46f4ef1a515e405e0843dd3",
+    "semantic_hash": ""
+  },
+  "slaid/md/hands-on.md": {
+    "mtime": 1791298197.9176977,
+    "ast_hash": "ddf38f4bd2b227db067e78099057eda2",
+    "semantic_hash": ""
+  },
+  "slaid/md/modul-1.md": {
+    "mtime": 1791298197.9145029,
+    "ast_hash": "b3a04474f6bbbc1bd538d1310d07343e",
+    "semantic_hash": ""
+  },
+  "slaid/md/modul-2.md": {
+    "mtime": 1791298197.9156592,
+    "ast_hash": "3a808193ecddb9bd87dcf5299ee2b0e0",
+    "semantic_hash": ""
+  },
+  "slaid/md/modul-3.md": {
+    "mtime": 1791298197.9167867,
+    "ast_hash": "2ad4e1e3a800c137dc163faac4fb3cb8",
+    "semantic_hash": ""
+  },
+  "slaid/modul-1.html": {
+    "mtime": 1791298197.9141657,
+    "ast_hash": "81eecfcd91f015ad5462f4e4af01608f",
+    "semantic_hash": ""
+  },
+  "slaid/modul-2.html": {
+    "mtime": 1791298197.9153893,
+    "ast_hash": "704298b607a1015447da07d34c77f346",
+    "semantic_hash": ""
+  },
+  "slaid/modul-3.html": {
+    "mtime": 1791298197.9164653,
+    "ast_hash": "2f9e006352ba1af024613a108955c6b3",
+    "semantic_hash": ""
+  },
+  "slaid/img/foto-a.jpg": {
+    "mtime": 1791296315.592453,
+    "ast_hash": "c5cea1f086fe15e1df53656dbba91657",
+    "semantic_hash": ""
+  },
+  "slaid/img/foto-b.jpg": {
+    "mtime": 1791296316.3102748,
+    "ast_hash": "74d412992e990d66b7b1f6d538ff1530",
+    "semantic_hash": ""
+  },
+  "slaid/img/foto-c.jpg": {
+    "mtime": 1791296317.0842092,
+    "ast_hash": "5ff53c4e74a423630ba05e3f330ded9e",
+    "semantic_hash": ""
+  },
+  "slaid/img/IMEJ_MODUL_1.md": {
+    "mtime": 1791298197.9563832,
+    "ast_hash": "807523fd80d06a308e9f06d3ad050eb8",
+    "semantic_hash": ""
+  },
+  "slaid/img/data-selamat.jpg": {
+    "mtime": 1791298197.8758228,
+    "ast_hash": "51cb45b9f9e94ac278ea7c6841600310",
+    "semantic_hash": ""
+  },
+  "slaid/img/manusia-ai.jpg": {
+    "mtime": 1791298044.5245543,
+    "ast_hash": "90d28f6fae6b44bdfe9b34e9d43e6b1d",
+    "semantic_hash": ""
+  },
+  "slaid/img/pejabat-ai.jpg": {
+    "mtime": 1791298044.4790244,
+    "ast_hash": "71209607c22ce5a8714d9a5154587e20",
+    "semantic_hash": ""
+  },
+  "slaid/img/tapak-selamat.jpg": {
+    "mtime": 1791298044.575837,
+    "ast_hash": "b12ff0d981a546572ea0ca60ef064d80",
+    "semantic_hash": ""
+  }
+}

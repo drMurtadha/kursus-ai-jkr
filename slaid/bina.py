@@ -373,6 +373,11 @@ def build_deck(d):
         if t == "act": cls.append("act")
         menu_title = strip(s.get("menu") or s["h"])
         body = RENDER[t](s, d)
+        if s.get("image"):
+            cls.append("illustrated")
+            caption = H.escape(s.get("image_caption", "Ilustrasi dijana AI, situasi rekaan"))
+            figure = f'<figure class="slide-visual"><img src="{H.escape(s["image"])}" alt="{H.escape(s["image_alt"])}"><figcaption>{caption}</figcaption></figure>'
+            body = f'<div class="illustrated-layout"><div class="illustrated-copy">{body}</div>{figure}</div>'
         notes = f'<aside class="notes"><p>{s["notes"]}</p></aside>' if s.get("notes") else ""
         chrome = f'<div class="chrome"><span class="mod"><i></i>{d["label"]}</span><span class="pg">{i+1:02d} / {n:02d}</span></div>'
         foot = f'<div class="foot"><b style="width:{(i+1)/n*100:.1f}%"></b></div>'
@@ -380,6 +385,9 @@ def build_deck(d):
         md.append(f"## Slaid {i+1}: {menu_title}\n")
         md.append(f"**Susun atur:** {t}\n")
         md.append("\n".join(md_body(s)) + "\n")
+        if s.get("image"):
+            md.append(f"**Imej:** `slaid/{s['image']}`. {s['image_alt']}\n")
+
         md.append(f"**Cadangan visual:** {s.get('visual') or VISUAL[t]}\n")
         if s.get("notes"): md.append(f"**Nota penceramah:** {strip(s['notes'])}\n")
         md.append("---\n")

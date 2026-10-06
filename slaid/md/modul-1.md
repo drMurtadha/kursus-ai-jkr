@@ -25,6 +25,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Subtajuk: Apa itu AI generatif, apa ia boleh dan tidak boleh buat, dan cara menggunakannya dengan selamat.
 - Maklumat: 8.30-9.30 pagi | 60 minit | PM Dr Mohd Murtadha Mohamad
 
+**Imej:** `slaid/img/pejabat-ai.jpg`. Ilustrasi pegawai kejuruteraan Malaysia menyemak pelan jalan di pejabat dengan bantuan AI.
+
 **Cadangan visual:** Latar gelap warna utama, nombor modul gergasi bergaris di kanan bawah, jalur emas kecil, tajuk besar putih dengan satu perkataan italik emas.
 
 **Nota penceramah:** Selamat datang. Pastikan semua sudah menjawab Pra-Ujian dan sudah log masuk ke komputer makmal.
@@ -73,6 +75,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Label: Demo pembuka
 - Tajuk: Pejabat masa depan dalam *satu prompt*
 - Subtajuk: Penceramah menjana imej pejabat JKR masa depan secara langsung.
+
+**Imej:** `slaid/img/pejabat-ai.jpg`. Ilustrasi pegawai kejuruteraan Malaysia menyemak pelan jalan di pejabat dengan bantuan AI.
 
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 
@@ -138,6 +142,8 @@ Slaid "Cuba Sekarang" mesti memaparkan prompt dalam kotak gelap gaya terminal su
 - Tajuk: AI *mencadang*. Manusia memutuskan.
 - Subtajuk: Setiap aktiviti hari ini berakhir dengan semakan oleh anda.
 
+**Imej:** `slaid/img/manusia-ai.jpg`. Ilustrasi jurutera menyemak laporan yang dicadangkan pembantu AI.
+
 **Cadangan visual:** Pernyataan besar pada latar kertas cerah, satu perkataan berwarna aksen.
 
 **Nota penceramah:** Ulang prinsip ini pada setiap peralihan modul.
@@ -177,6 +183,8 @@ Saya [jawatan] di JKR Daerah. Senaraikan 5 tugas harian saya yang boleh dipercep
 - Tajuk: Apa itu *AI*?
 - Subtajuk: Definisi, analogi, tiga pendekatan dan peta alat.
 
+**Imej:** `slaid/img/manusia-ai.jpg`. Ilustrasi jurutera menyemak laporan yang dicadangkan pembantu AI.
+
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 
 **Nota penceramah:** Peralihan ke bahagian konsep, kira-kira 15 minit.
@@ -190,6 +198,8 @@ Saya [jawatan] di JKR Daerah. Senaraikan 5 tugas harian saya yang boleh dipercep
 - Label: Definisi kerja
 - Tajuk: AI ialah pembantu digital yang menghasilkan cadangan berdasarkan arahan kita.
 - Sumber: Sumber: AI untuk Semua, drshahizan.github.io/ai-semua
+
+**Imej:** `slaid/img/manusia-ai.jpg`. Ilustrasi jurutera menyemak laporan yang dicadangkan pembantu AI.
 
 **Cadangan visual:** Petikan besar fon serif italik, tanda petik emas besar.
 
@@ -206,6 +216,8 @@ Saya [jawatan] di JKR Daerah. Senaraikan 5 tugas harian saya yang boleh dipercep
   - **Telah membaca banyak**: Pantas menulis, meringkas, menyusun dan menterjemah.
   - **Tidak pernah ke tapak**: Tidak kenal kontraktor, jalan atau prosedur jabatan kita.
   - **Kadang-kadang mereka-reka**: Memberi jawapan salah dengan nada yang sangat yakin.
+
+**Imej:** `slaid/img/manusia-ai.jpg`. Ilustrasi jurutera menyemak laporan yang dicadangkan pembantu AI.
 
 **Cadangan visual:** Grid kad putih bersudut bulat, ikon kecil dan label aksen di atas tajuk kad.
 
@@ -281,6 +293,8 @@ Saya [jawatan] di JKR Daerah. Senaraikan 5 tugas harian saya yang boleh dipercep
   - **Pembantu Tadbir**: Surat rasmi, e-mel, minit mesyuarat, hebahan.
   - **Pembantu Kemahiran**: Laporan kerja harian, senarai semak keselamatan.
 
+**Imej:** `slaid/img/tapak-selamat.jpg`. Ilustrasi jurutera menyemak tablet di kawasan kerja jalan yang dilindungi penghadang.
+
 **Cadangan visual:** Grid kad putih bersudut bulat, ikon kecil dan label aksen di atas tajuk kad.
 
 **Nota penceramah:** Tanya peserta jawatan mereka, dan minta mereka pilih satu kegunaan untuk dicuba minggu depan.
@@ -318,6 +332,8 @@ Jana poster menegak gaya ilustrasi rata: pekerja jalan raya Malaysia memakai top
 - Label: Ceramah + kuiz
 - Tajuk: Keselamatan *data*
 - Subtajuk: Apa yang boleh, perlu dilindungi, dan tidak boleh dimasukkan ke dalam AI.
+
+**Imej:** `slaid/img/data-selamat.jpg`. Ilustrasi fail sulit dilindungi kunci dan perisai sebelum menggunakan AI.
 
 **Cadangan visual:** Latar penuh warna utama, nombor seksyen gergasi bergaris, tajuk besar putih.
 

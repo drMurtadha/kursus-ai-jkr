@@ -31,6 +31,7 @@
       </div>
     </div>
     <div class="wrap pills">
+      <a class="pill-hot" href="https://forms.gle/FSYdBjMboPMZMFoG7" target="_blank" rel="noopener">Pra-Ujian &#8599;</a>
       <a href="index.html#tentatif">Tentatif</a>
       <a href="modul-1.html">Asas AI</a>
       <a href="modul-2.html#formula">Formula Prompt</a>

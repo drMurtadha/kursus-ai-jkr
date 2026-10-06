@@ -143,3 +143,10 @@ footer a{color:#fff}
   .wrap{padding:0 16px}
 }
 @media print{header.site,.totop,.progress,.copy,.tools{display:none}}
+
+/* Pra-Ujian */
+.pretest{background:var(--card);border:2px solid var(--red);border-radius:20px;padding:20px 22px;margin:22px 0 4px;max-width:640px;box-shadow:0 12px 30px rgba(213,43,50,.12)}
+.pretest h3{margin:4px 0 6px}
+.pretest p{margin:0 0 14px;color:var(--muted)}
+.pretest .btn.primary{background:var(--red);border-color:var(--red)}
+.pills a.pill-hot{background:var(--red);border-color:var(--red);color:#fff}

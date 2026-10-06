@@ -13,6 +13,14 @@
     set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
   };
 
+  const palettes = [
+    ["biru", "Biru Rasmi", ["#084c9e", "#062f63", "#d52b32", "#f3bd2d"]],
+    ["hijau", "Hijau Hutan", ["#1b7a4b", "#0f3d2a", "#c2410c", "#e9b949"]],
+    ["teal", "Teal Laut", ["#0f766e", "#134e4a", "#e11d48", "#f59e0b"]],
+    ["ungu", "Ungu Diraja", ["#5b3cc4", "#2e1a6b", "#db2777", "#f2c14e"]],
+    ["bata", "Bata Senja", ["#b4462b", "#4a1d12", "#1d4ed8", "#e0a526"]],
+    ["korporat", "Kelabu Korporat", ["#334155", "#0f172a", "#0284c7", "#eab308"]],
+  ];
   const header = document.createElement("header");
   header.className = "site";
   header.innerHTML = `
@@ -26,6 +34,7 @@
       <div class="tools">
         <button type="button" data-act="minus" title="Kecilkan teks" aria-label="Kecilkan teks">A&minus;</button>
         <button type="button" data-act="plus" title="Besarkan teks" aria-label="Besarkan teks">A+</button>
+        <span class="palette-wrap"><button type="button" data-act="palette" title="Pilih palet warna" aria-label="Pilih palet warna" aria-expanded="false" aria-controls="palpop"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="5" cy="6" r="2.2" fill="currentColor"/><circle cx="11" cy="6" r="2.2" fill="currentColor" opacity=".6"/><circle cx="8" cy="11" r="2.2" fill="currentColor" opacity=".35"/></svg></button><div class="palette-pop" id="palpop" hidden><p>Palet warna</p>${palettes.map(([k, n, c]) => `<button type="button" class="sw" data-pal="${k}" aria-pressed="false"><i>${c.map((x) => `<b style="background:${x}"></b>`).join("")}</i>${n}</button>`).join("")}</div></span>
         <button type="button" data-act="theme" title="Mod gelap" aria-label="Tukar mod gelap"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
         <button type="button" class="menu-btn" data-act="menu" aria-label="Menu"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.6"/></svg></button>
       </div>
@@ -62,6 +71,20 @@
   let scale = parseFloat(store.get("fs") || "1");
   const applyScale = () => root.style.setProperty("--font-scale", scale);
   applyScale();
+  const pop = header.querySelector("#palpop");
+  const palBtn = header.querySelector('[data-act="palette"]');
+  const setPalette = (k) => {
+    if (k && k !== "biru") root.dataset.palette = k; else delete root.dataset.palette;
+    pop.querySelectorAll(".sw").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.pal === (k || "biru"))));
+  };
+  setPalette(store.get("palette"));
+  pop.addEventListener("click", (e) => {
+    const b = e.target.closest(".sw"); if (!b) return;
+    setPalette(b.dataset.pal); store.set("palette", b.dataset.pal);
+  });
+  const closePop = () => { pop.hidden = true; palBtn.setAttribute("aria-expanded", "false"); };
+  document.addEventListener("click", (e) => { if (!e.target.closest(".palette-wrap")) closePop(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePop(); });
   const savedTheme = store.get("theme");
   if (savedTheme) root.dataset.theme = savedTheme;
   else if (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches) root.dataset.theme = "dark";
@@ -73,6 +96,7 @@
     if (a === "minus") scale = Math.max(0.9, +(scale - 0.1).toFixed(1));
     if (a === "plus" || a === "minus") { applyScale(); store.set("fs", scale); }
     if (a === "theme") { root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark"; store.set("theme", root.dataset.theme); }
+    if (a === "palette") { pop.hidden = !pop.hidden; palBtn.setAttribute("aria-expanded", String(!pop.hidden)); }
     if (a === "menu") document.getElementById("mainnav").classList.toggle("open");
   });
 
